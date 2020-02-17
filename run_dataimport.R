@@ -27,7 +27,7 @@ subject_test <- read.table("UCI HAR Dataset/test/subject_test.txt", col.names = 
 # Read the testing input data into R
 x_test <- read.table("UCI HAR Dataset/test/X_test.txt", col.names = features$functions)
 
-# Read the testing output data into R
+# Read the testing output (activity) data into R
 y_test <- read.table("UCI HAR Dataset/test/y_test.txt", col.names = "code")
 
 # Read the subject training data into R
@@ -36,6 +36,6 @@ subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt", col.names
 # Read the training input data into R
 x_train <- read.table("UCI HAR Dataset/train/X_train.txt", col.names = features$functions)
 
-# Read the training output data into R
+# Read the training output (activity) data into R
 y_train <- read.table("UCI HAR Dataset/train/y_train.txt", col.names = "code")
 
