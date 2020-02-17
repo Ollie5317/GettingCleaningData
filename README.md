@@ -1,13 +1,13 @@
-## Getting and Cleaning Data Course Project: Peer Grade Assignment
+# Getting and Cleaning Data Course Project: Peer Grade Assignment
 Author: Oliver Fisher 
 
 This repository is for the Getting and Cleaning Data course project. It has the instructions on how to run analysis on Human Activity recognition dataset provided by UCI.
 
-# Dataset
+## Dataset
 Human Activity Recognition Using Smartphones
 URL link: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-# Files
+## Files
 CodeBook.md a code book that describes the variables, the data, and the transformations and work performed to clean up the data
 
 run_dataimport.R downloads the data into a the working directory and reads the dataset into R. 
